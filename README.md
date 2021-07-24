@@ -11,7 +11,7 @@
 ```apt install git ```
 
 
-```git clone https://github.com/Nazim003/Convertor```
+```git clone https://github.com/nazim003/Convertor```
 
 
 ```cd Convertor```
