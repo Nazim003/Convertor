@@ -14,7 +14,7 @@
 ```git clone https://github.com/Nazim003/Convertor```
 
 
-```cd Convertor.py```
+```cd Convertor```
 
 
 ```python3 Convertor.py```
