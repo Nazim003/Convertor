@@ -1,5 +1,7 @@
 # Convertor
 # This tool will help you for converting some complex mathematical operations. 
+# How to install it:
+
 ```apt update && apt upgrade```
 
 
