@@ -15,10 +15,10 @@ print("\033[0;31m")
 print(''' 𝗪𝗵𝗮𝘁 𝗱𝗼 𝘆𝗼𝘂 𝘄𝗮𝗻𝘁❓❓❓  ''')
 print("\n")
 print("\033[0;35m")
-print("1.Integer number to Binary number)
-print("2.Integer number to Octal number)
-print("3.Integer number to Hexadecimal)
-print("4.Farenheit to Celsius)
+print("1.Integer number to Binary number")
+print("2.Integer number to Octal number")
+print("3.Integer number to Hexadecimal")
+print("4.Farenheit to Celsius")
 print("\n")
 print("\033[0;36m")
 num = int(input("Enter any number to continue: "))
@@ -52,7 +52,6 @@ elif num == 4:
       F_num = float(input("Enter your Farenheit num: "))
       Cel = 5/9 * ( F_num - 32 )
       print("Your Celsius number is" , Cel)
-      print("\n")
       
 	
 else:
