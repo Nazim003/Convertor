@@ -19,6 +19,11 @@ print("1.Integer number to Binary number")
 print("2.Integer number to Octal number")
 print("3.Integer number to Hexadecimal")
 print("4.Farenheit to Celsius")
+print("5.Celsius to Farenheit")
+print("6.Kalvin to Celsius")
+print("7.Celsius to Kalvin")
+print("8.Kalvin to Farenheit")
+print("Farenheit to Kalvin")
 print("\n")
 print("\033[0;36m")
 num = int(input("Enter any number to continue: "))
@@ -52,8 +57,26 @@ elif num == 4:
       F_num = float(input("Enter your Farenheit num: "))
       Cel = 5/9 * ( F_num - 32 )
       print("Your Celsius number is" , Cel)
-      
-	
+elif num == 5:
+	Cel_num = float(input("Enter your Celsius num: "))
+	Ft_num = (((9 * Cel_num) / 5) + 32)
+	print("Your Farenheit number is" , Ft_num)
+elif num == 6:
+	Calvin = float(input("Enter your calvin number: "))
+	CelNum = (Calvin - 273.15)
+	print("Your celsius number is" , CelNum)
+elif num == 7:
+	Celsius = float(input("Enter your celsius number: "))
+	Cal = (Celsius + 273.15)
+	print("Your Calvin number is" , Cal)
+elif num == 8:
+	kalvin_num = float(input("Enter you kalvin number: "))
+	FarenHeit = (((9 * kalvin_num) - 2298.15)/5)
+	print("Your Farenheit Number is" , FarenHeit)
+elif num == 9:
+	farenHeit = float(input("Enter your Farenheit number: "))
+	kalvin_NuM = (((5 * farenHeit) + 2298.35) / 9)
+	print("Your kavin number is" , kalvin_NuM)
 else:
 	print("••••••••••••••••••••")
 	print("Sorry type error")
