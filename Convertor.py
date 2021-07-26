@@ -139,11 +139,10 @@ else:
 print("\n")	
 question = print("Do you want to update it?")
 print()
-ask = input("Type yes or no: ")
+ask = ("Type yes or no: ")
 print()
+ask = input("=> ")
 if ask == "yes":
-	up = input("Type u for update: ")
-	if up == "u":
 	os.system("bash update.sh")
 else:
 	print("Try next time")
