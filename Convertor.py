@@ -135,7 +135,15 @@ else:
 	print("••••••••••••••••••••")
 	print("Sorry type error")
 	print("•••••••••••••••••••")
-	
-up = input("Type u for update: ")
-if up == "u":
+
+print("\n")	
+question = print("Do you want to update it?")
+print()
+ask = input("Type yes or no: ")
+print()
+if ask == "yes":
+	up = input("Type u for update: ")
+	if up == "u":
 	os.system("bash update.sh")
+else:
+	print("Try next time")
