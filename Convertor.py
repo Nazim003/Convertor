@@ -1,8 +1,4 @@
-import os , sys
-up = input("Type u for update: ")
-if up == u:
-	os.system("bash update.sh")
-	
+import os , sys	
 print("\033[0;36m")
 print(''' 
 ░█████╗░░█████╗░███╗░░██╗██╗░░░██╗███████╗██████╗░████████╗░█████╗░██████╗░
@@ -139,3 +135,7 @@ else:
 	print("••••••••••••••••••••")
 	print("Sorry type error")
 	print("•••••••••••••••••••")
+	
+up = input("Type u for update: ")
+if up == u:
+	os.system("bash update.sh")
