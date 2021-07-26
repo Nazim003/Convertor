@@ -6,7 +6,7 @@ print('''
 ██║░░██╗██║░░██║██║╚████║░╚████╔╝░██╔══╝░░██╔══██╗░░░██║░░░██║░░██║██╔══██╗
 ╚█████╔╝╚█████╔╝██║░╚███║░░╚██╔╝░░███████╗██║░░██║░░░██║░░░╚█████╔╝██║░░██║
 ░╚════╝░░╚════╝░╚═╝░░╚══╝░░░╚═╝░░░╚══════╝╚═╝░░╚═╝░░░╚═╝░░░░╚════╝░╚═╝░░╚═╝ ''')
-print("Version: 1.1")
+print("Version: 2.0")
 print("New version is coming soon")
 print("\033[0;34m")
 print("𝗖𝗼𝗱𝗲𝗱 𝗯𝘆 𝗠𝗱 𝗡𝗮𝘇𝗶𝗺")
@@ -23,10 +23,20 @@ print("2.Integer number to Octal number")
 print("3.Integer number to Hexadecimal")
 print("4.Farenheit to Celsius")
 print("5.Celsius to Farenheit")
-print("6.Kalvin to Celsius")
-print("7.Celsius to Kalvin")
-print("8.Kalvin to Farenheit")
-print("9.Farenheit to Kalvin")
+print("6.Kelvin to Celsius")
+print("7.Celsius to Kelvin")
+print("8.Kelvin to Farenheit")
+print("9.Farenheit to Kelvin")
+print("10.Kilometer to Meter")
+print("11.Meter to Kilometer")
+print("12.Kilometer to Mile")
+print("13.Mile to Kilomete")
+print("14.Inch to Foot")
+print("15.Foot to Inch")
+print("16.Meter to Centimete")
+print("17.Centimeter to Meter")
+print("18.Kilometer to Nautical Mile")
+print("19.Nautical mile to Kilometer")
 print("\n")
 print("\033[0;36m")
 num = int(input("Enter any number to continue: "))
@@ -80,6 +90,46 @@ elif num == 9:
 	farenHeit = float(input("Enter your Farenheit number: "))
 	kalvin_NuM = (((5 * farenHeit) + 2298.35) / 9)
 	print("Your kavin number is" , kalvin_NuM)
+elif num == 10:
+      km = float(input("Enter your kilometer number: "))
+      meter = km * 1000
+      print(meter , "meter")
+elif num == 11:
+      met = float(input("Enter your meter number: "))
+      kilo = met / 1000
+      print(kilo , "kilometer")
+elif num == 12:
+	kilom = float(input("Enter your kilometer number: "))
+	mile = kilom * 0.621371
+	print(mile , "mile")
+elif num == 13:
+	mil = float(input("Enter your mile number: "))
+	kil = mil / 0.621371
+	print(kil , "Kilometer")
+elif num == 14:
+	inch = float(input("Enter your inch number: "))
+	foot = inch * 0.0833333
+	print(foot , "foot")
+elif num == 15:
+	ft = float(input("Enter your foot number: "))
+	incH = ft / 0.0833333
+	print(incH , "Inch")
+elif num == 16:
+      mt = float(input("Enter your meter number: "))
+      centimeter = mt * 100
+      print(centimeter , "centimeter")
+elif num == 17:
+	centi = float(input("Enter your centimeter number: "))
+	met = centi / 100
+	print(met , "meter")
+elif num == 18:
+	kmeter = float(input("Enter your kilometer number: "))
+	nautical_mile = kmeter * 0.539957
+	print(nautical_mile , "nautical mile")
+elif num == 19:
+	nmile = float(input("Enter your Nautical mile number: "))
+	kiloMeter = nmile / 0.539957
+	print(kiloMeter , 'Kilometer')
 else:
 	print("••••••••••••••••••••")
 	print("Sorry type error")
