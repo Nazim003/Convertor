@@ -139,9 +139,7 @@ else:
 print("\n")	
 question = print("Do you want to update it?")
 print()
-ask = ("Type yes or no: ")
-print()
-ask = input("=> ")
+ask = input("Type yes or no: ")
 if ask == "yes":
 	os.system("bash update.sh")
 else:
