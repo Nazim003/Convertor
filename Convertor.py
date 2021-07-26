@@ -137,5 +137,5 @@ else:
 	print("•••••••••••••••••••")
 	
 up = input("Type u for update: ")
-if up == u:
+if up == "u":
 	os.system("bash update.sh")
